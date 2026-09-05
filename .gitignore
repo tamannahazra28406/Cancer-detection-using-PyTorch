@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Data & models (don't commit large files)
+data/train/**
+data/val/**
+data/test/**
+!data/train/.gitkeep
+!data/val/.gitkeep
+models/*.pth
+!models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+runs/
+*.log
